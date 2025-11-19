@@ -1,5 +1,6 @@
  // src/App.tsx
 import "./App.css";
+import ProjectsSection from "./components/ProjectsSection";
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
         <SectionDivider />
 
         <ExperienceSection />
+        <SectionDivider />
+
+        <ProjectsSection />
         <SectionDivider />
 
         <SkillsSection />
@@ -35,6 +39,7 @@ function Header() {
 
       <nav className="nav">
         <a href="#experience">Experiencia</a>
+        <a href="#projects">Proyectos</a>
         <a href="#skills">Habilidades</a>
         <a href="#riff-and-code">Riff &amp; Code</a>
         <a href="#contact">Contacto</a>
