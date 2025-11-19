@@ -1,4 +1,4 @@
-// src/App.tsx
+ // src/App.tsx
 import "./App.css";
 
 function App() {
@@ -29,7 +29,7 @@ function Header() {
         <div className="avatar" />
         <div>
           <p className="overline">Portafolio</p>
-          <h1 className="name">Diego Rodríguez</h1>
+          <h1 className="name">Diego Rosel Rodríguez</h1>
         </div>
       </div>
 
