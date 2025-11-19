@@ -21,10 +21,13 @@ body {
 .app {
   min-height: 100vh;
   background-color: var(--bg);
+  display: flex;
+  justify-content: center;
 }
 
 .app-container {
   max-width: 960px;
+  width: 100%;
   margin: 0 auto;
   padding: 2.5rem 1.25rem 4rem;
 }
