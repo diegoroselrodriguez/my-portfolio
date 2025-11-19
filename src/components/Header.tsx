@@ -4,7 +4,15 @@ export default function Header() {
   return (
     <header className="header">
       <div className="header-left">
-        <div className="avatar" />
+        {/* Avatar con imagen real */}
+        <div className="avatar">
+          <img
+            src="/images/diego-perfil.jpg"
+            alt="Foto de Diego Rodríguez"
+            className="avatar-img"
+          />
+        </div>
+
         <div>
           <p className="overline">Portafolio</p>
           <h1 className="name">Diego Rodríguez</h1>
@@ -13,6 +21,7 @@ export default function Header() {
 
       <nav className="nav">
         <a href="#experience">Experiencia</a>
+        <a href="#education">Estudios</a>
         <a href="#projects">Proyectos</a>
         <a href="#skills">Habilidades</a>
         <a href="#riff-and-code">Riff &amp; Code</a>
