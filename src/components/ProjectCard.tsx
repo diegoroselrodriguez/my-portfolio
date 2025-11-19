@@ -1,5 +1,6 @@
 // src/components/ProjectCard.tsx
-type Project = {
+
+export type Project = {
   title: string;
   company: string;
   year: string;
