@@ -13,18 +13,18 @@ export default function Footer() {
       <div className="footer-links">
         <p>
           Email:{" "}
-          <a href="mailto:tu-correo@ejemplo.com">
-            tu-correo@ejemplo.com
+          <a href="mailto:diego.rosel89@gmail.com">
+            diego.rosel89@gmail.com
           </a>
         </p>
         <p>
           LinkedIn:{" "}
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/diego-rosel-rodriguez/"
             target="_blank"
             rel="noreferrer"
           >
-            linkedin.com/in/tu-perfil
+            https://www.linkedin.com/in/diego-rosel-rodriguez/
           </a>
         </p>
       </div>
