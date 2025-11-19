@@ -359,3 +359,87 @@ body {
     align-items: center;
   }
 }
+
+/* PROYECTOS */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.project-card {
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  background-color: rgba(15, 23, 42, 0.7);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: border-color 0.15s ease, background-color 0.15s ease,
+    transform 0.15s ease;
+}
+
+.project-card:hover {
+  border-color: rgba(42, 212, 255, 0.9);
+  background-color: rgba(2, 6, 23, 0.95);
+  transform: translateY(-2px);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.75rem;
+  align-items: baseline;
+}
+
+.project-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.project-year {
+  font-size: 0.75rem;
+  color: #9ca3af;
+}
+
+.project-company {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #93c5fd;
+}
+
+.project-summary {
+  margin: 0.3rem 0 0;
+  font-size: 0.87rem;
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+.project-tags {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.project-tag {
+  font-size: 0.75rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background-color: rgba(2, 6, 23, 0.9);
+  color: #e5e7eb;
+}
+
+.project-link {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.project-link:hover {
+  text-decoration: underline;
+}
