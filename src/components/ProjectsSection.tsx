@@ -54,7 +54,7 @@ export default function ProjectsSection() {
       />
       <div className="projects-grid">
         {projects.map((project) => (
-          <ProjectCard project={project} key={${project.title}-${project.year}} />
+          <ProjectCard project={project} key={`${project.title}-${project.year}`} />
         ))}
       </div>
     </section>
