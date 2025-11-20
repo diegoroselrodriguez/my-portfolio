@@ -8,6 +8,7 @@ import ProjectsSection from "./components/ProjectsSection";
 import SkillsSection from "./components/SkillsSection";
 import RiffAndCodeSection from "./components/RiffAndCodeSection";
 import Footer from "./components/Footer";
+import EducationSection from "./components/EducationSection";
 
 function App() {
   return (
