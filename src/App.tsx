@@ -21,6 +21,9 @@ function App() {
         <ExperienceSection />
         <SectionDivider />
 
+        <EducationSection />
+        <SectionDivider />
+
         <ProjectsSection />
         <SectionDivider />
 
