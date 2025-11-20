@@ -9,6 +9,7 @@ import SkillsSection from "./components/SkillsSection";
 import RiffAndCodeSection from "./components/RiffAndCodeSection";
 import Footer from "./components/Footer";
 import EducationSection from "./components/EducationSection";
+import AboutSection from "./components/AboutSection";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
         <Hero />
         <SectionDivider />
 
+        <AboutSection />
+        <SectionDivider />
+       
         <ExperienceSection />
         <SectionDivider />
 
