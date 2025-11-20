@@ -450,3 +450,51 @@ body {
 .project-link:hover {
   text-decoration: underline;
 }
+
+/* EDUCATION / ESTUDIOS */
+
+.education-grid {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.education-card {
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  background-color: rgba(15, 23, 42, 0.7);
+  padding: 1rem;
+}
+
+.education-title {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #e5e7eb;
+}
+
+.education-center {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+  color: #93c5fd;
+}
+
+.education-period {
+  margin: 0.2rem 0 0;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
+
+.education-description {
+  margin: 0.4rem 0 0;
+  font-size: 0.87rem;
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+/* En escritorio, 2 columnas si lo ves cómodo */
+@media (min-width: 1024px) {
+  .education-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
