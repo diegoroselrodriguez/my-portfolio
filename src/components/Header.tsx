@@ -45,7 +45,7 @@ export default function Header() {
 
       {/* Menú de navegación */}
       <nav
-        className={nav ${isOpen ? "nav-open" : ""}}
+        className={`nav ${isOpen ? "nav-open" : ""}`}
       >
         <a href="#about" onClick={handleLinkClick}>
           Sobre mí
