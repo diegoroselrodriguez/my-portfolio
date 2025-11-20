@@ -76,9 +76,10 @@ body {
 }
 
 .nav {
-  display: none;
-  gap: 1rem;
-  font-size: 0.85rem;
+  display: flex;              /* 👈 siempre visible */
+  flex-wrap: wrap;            /* si no cabe en una línea, se baja */
+  gap: 0.75rem;
+  font-size: 0.8rem;
   color: #a3a3a3;
 }
 
@@ -91,10 +92,21 @@ body {
   color: var(--accent);
 }
 
+/* Puedes mantener este media query solo para ajustar algo en desktop */
 @media (min-width: 768px) {
   .nav {
-    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
   }
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav a:hover {
+  color: var(--accent);
 }
 
 /* Hero */
