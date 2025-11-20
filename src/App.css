@@ -498,3 +498,16 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* ACERCA DE MI */
+
+.about-list {
+  margin: 0.4rem 0 0.8rem;
+  padding-left: 1.2rem;
+  font-size: 0.87rem;
+  color: #d1d5db;
+}
+
+.about-list li {
+  margin-bottom: 0.25rem;
+}
