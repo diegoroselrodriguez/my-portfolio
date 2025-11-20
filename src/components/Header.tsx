@@ -7,7 +7,7 @@ export default function Header() {
         {/* Avatar con imagen real */}
         <div className="avatar">
           <img
-            src="/images/diego-perfil.jpg"
+            src="/public/images/diego-perfil.jpg"
             alt="Foto de Diego Rodríguez"
             className="avatar-img"
           />
